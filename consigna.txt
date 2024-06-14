@@ -1,0 +1,37 @@
+Problemática
+Se te ha contratado para desarrollar un sistema de gestión de personas para una
+institución educativa. El sistema debe permitir manejar la información de estudiantes,
+docentes y personal administrativo, y proporcionar herramientas para realizar diversas
+consultas y manipulaciones sobre los datos de estas personas.
+1. Introducción y Preparación de Datos
+Carga de Datos:
+Crea una clase Persona que será abstracta, con los atributos nombre, apellido,
+edad, y ocupacion.
+Implementa el método abstracto mostrar_informacion.
+Crea varias subclases de Persona, como Estudiante, Docente, y Administrativo
+(si quieren otras más), cada una con atributos adicionales específicos y su propia
+implementación del método mostrar_informacion.
+Implementa encapsulamiento para algunos atributos y utiliza @property y @setter
+para manejar su acceso.
+Crea una colección de personas en una lista.
+2. Análisis de la Colección de Datos
+Filtrado y Búsqueda:
+Implementa funciones o métodos para buscar personas en la colección basados
+en diferentes criterios, como:
+● Todas las personas mayores de una cierta edad.
+● Todas las personas con una cierta ocupación.
+● Todas las personas con un nombre o apellido específico.
+3. Manipulación y Operaciones Avanzadas
+Operaciones Avanzadas:
+Agrega métodos a las clases para realizar operaciones específicas, como:
+● Actualizar la información de una persona.
+● Generar un ID único para cada persona (por ejemplo los dos primeros
+caracteres del Apellido + los últimos 2 caracteres del Nombre + la
+ocupación).
+● Ordenar la colección de personas por diferentes criterios (edad, nombre,
+etc.).
+Polimorfismo:
+● Implementa métodos adicionales en las subclases para demostrar
+polimorfismo.
+● Crea una función que reciba una lista de objetos Persona y llame a los
+métodos de cada objeto sin conocer su tipo específico.
